@@ -6,7 +6,7 @@
 ---
 
 ##  Overview
-This project is a full implementation of **Conway’s Game of Life** built as a .NET Windows Forms application using C#. The simulation renders a dynamic grid of living and dead cells that evolve according to Conway’s four canonical rules. This project fully satisfies all basic and advanced features required by the final submission rubric.
+This project is a full implementation of **Conway’s Game of Life** built as a .NET Windows Forms application using C++. The simulation renders a dynamic grid of living and dead cells that evolve according to Conway’s four canonical rules. This project fully satisfies all basic and advanced features required by the final submission rubric.
 
 ---
 
@@ -87,23 +87,11 @@ This project is a full implementation of **Conway’s Game of Life** built as a 
 ---
 
 ##  Technical Notes
-- Written in **C# using .NET Windows Forms**
+- Written in **C++ using .NET Windows Forms**
 - Settings stored using `Properties.Settings`
 - Universe represented with 2D boolean arrays
 - File IO uses standard `StreamReader` / `StreamWriter` workflows
 - Grid uses GDI+ drawing with adjustable styling
-
----
-
-##  Repository Contents
-You may include:
-- `Universe.cs` — grid logic  
-- `Form1.cs` — main UI & simulation controller  
-- `SettingsDialog.cs` — user settings  
-- `RandomSeedDialog.cs` — randomization settings  
-- Any helper classes for IO, drawing, or utilities
-
-(No copyrighted school assets or templates should be included.)
 
 ---
 
